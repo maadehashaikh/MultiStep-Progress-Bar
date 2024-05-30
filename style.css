@@ -47,7 +47,7 @@ body{
   left: 0;
   height: 3px;
   top: 33%;
-  width: 25%;
+  width: 0;
   transform: translateY(-50%);
   background-color:var(--secondary);
   z-index: 1;
@@ -72,6 +72,11 @@ body{
   font-size: 1.3rem;
   background-color: var(--white);
   margin-bottom: 10px;
+}
+.progress-step .fa-solid.active{
+  border: 3px  solid var(--secondary);
+  color: var(--secondary);
+  /* background-color: red; */
 }
 .btn-container{
   display: flex;
